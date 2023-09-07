@@ -1,0 +1,21 @@
+.resumeH2 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #00ffff;
+}
+
+.main-box {
+  box-sizing: border-box;
+  width: 90vw;
+  margin: 0px 50px;
+  .left-box {
+    float: left;
+    width: 20%;
+  }
+  .right-box {
+    float: right;
+    width: 70%;
+    margin: 0px 30px 0px 0px;
+    box-sizing: border-box;
+  }
+}

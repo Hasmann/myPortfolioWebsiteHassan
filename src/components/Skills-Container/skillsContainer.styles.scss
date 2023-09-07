@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+.skills-container {
+  background: #00ffff;
+  padding: 10px;
+  text-align: center;
+  margin: 0px;
+  width: 130px;
+  font-size: 18px;
+  border-right: 5px solid #ff00ff;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px;
+  display: inline-block;
+
+  &:hover {
+    animation: tada 1s;
+    cursor: pointer;
+  }
+}
